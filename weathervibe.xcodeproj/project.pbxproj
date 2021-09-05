@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F61B4AD026E49F60004A38C9 /* weathervibeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B4ACF26E49F60004A38C9 /* weathervibeApp.swift */; };
-		F61B4AD226E49F60004A38C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B4AD126E49F60004A38C9 /* ContentView.swift */; };
+		F61B4AD226E49F60004A38C9 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B4AD126E49F60004A38C9 /* WeatherView.swift */; };
 		F61B4AD426E49F65004A38C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61B4AD326E49F65004A38C9 /* Assets.xcassets */; };
 		F61B4AD726E49F65004A38C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61B4AD626E49F65004A38C9 /* Preview Assets.xcassets */; };
+		F61B4AE026E4A170004A38C9 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B4ADF26E4A170004A38C9 /* WeatherService.swift */; };
+		F61B4AE326E4A3F6004A38C9 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B4AE226E4A3F6004A38C9 /* Weather.swift */; };
+		F61B4AE726E4AAA7004A38C9 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B4AE626E4AAA7004A38C9 /* WeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F61B4ACC26E49F60004A38C9 /* weathervibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weathervibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61B4ACF26E49F60004A38C9 /* weathervibeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weathervibeApp.swift; sourceTree = "<group>"; };
-		F61B4AD126E49F60004A38C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F61B4AD126E49F60004A38C9 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		F61B4AD326E49F65004A38C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F61B4AD626E49F65004A38C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F61B4AD826E49F65004A38C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61B4ADF26E4A170004A38C9 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		F61B4AE226E4A3F6004A38C9 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		F61B4AE626E4AAA7004A38C9 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				F61B4ACF26E49F60004A38C9 /* weathervibeApp.swift */,
-				F61B4AD126E49F60004A38C9 /* ContentView.swift */,
+				F61B4AD126E49F60004A38C9 /* WeatherView.swift */,
+				F61B4ADF26E4A170004A38C9 /* WeatherService.swift */,
+				F61B4AE626E4AAA7004A38C9 /* WeatherViewModel.swift */,
 				F61B4AD326E49F65004A38C9 /* Assets.xcassets */,
 				F61B4AD826E49F65004A38C9 /* Info.plist */,
+				F61B4AE226E4A3F6004A38C9 /* Weather.swift */,
 				F61B4AD526E49F65004A38C9 /* Preview Content */,
 			);
 			path = weathervibe;
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F61B4AD226E49F60004A38C9 /* ContentView.swift in Sources */,
+				F61B4AE726E4AAA7004A38C9 /* WeatherViewModel.swift in Sources */,
+				F61B4AE326E4A3F6004A38C9 /* Weather.swift in Sources */,
+				F61B4AD226E49F60004A38C9 /* WeatherView.swift in Sources */,
+				F61B4AE026E4A170004A38C9 /* WeatherService.swift in Sources */,
 				F61B4AD026E49F60004A38C9 /* weathervibeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
